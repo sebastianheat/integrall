@@ -33,3 +33,11 @@ La web pública está implementada. `/portal/` informa que el acceso privado est
 ## Imágenes
 
 Fotos proporcionadas por el cliente y retocadas con Imagegen conservando identidad y aspecto natural. WebP optimizados en `public/assets`. Los originales de alta resolución quedan fuera del repositorio en la carpeta local `integrall-fotos-retocadas`.
+
+## Dirección de arte y video
+
+Paleta carbón `#101318`, marfil `#F3F0E9` y champagne `#C6A15B`, inspirada en la referencia https://bertorello.netlify.app/ facilitada por el cliente. Tipografías Marcellus y Manrope. Los retratos mantienen la proporción completa y tienen marcos finos.
+
+Video decorativo de portada: https://bertorello.netlify.app/hero.mp4, reutilizado por solicitud expresa del cliente y servido localmente como `public/assets/propiedades.mp4` (H.264, 1600×900, 11,6 s, 2 MB, sin audio). Poster extraído del mismo video. No representa un inmueble ofrecido por Integrall. Reproducción en bucle, pausa accesible y carga diferida; no inicia automáticamente con movimiento reducido o ahorro de datos.
+
+WhatsApp `+56 9 3877 9278`: tomado de las capturas 26–28 de la web anterior compartidas por el cliente vía iCloud. Contacto muestra los correos de Gabriela y Kerly; el formulario se entrega a Gabriela.
