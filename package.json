@@ -1,0 +1,1 @@
+{"name":"integrall","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"wrangler dev","deploy":"npm run build && wrangler deploy","test":"node --test"},"devDependencies":{"wrangler":"4.151.0"}}

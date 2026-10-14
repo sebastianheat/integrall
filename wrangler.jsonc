@@ -1,0 +1,45 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "integrall",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-14",
+  "account_id": "4ce7fb6da3bb756e66879110cb080642",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
+  },
+  "vars": {
+    "CONTACT_TO": "gcarrasco@integrall.cl",
+    "EMAIL_FROM": "web@notificaciones.integrall.cl",
+    "SITE_URL": "https://integrall.cl"
+  },
+  "routes": [
+    {
+      "pattern": "integrall.cl/*",
+      "zone_name": "integrall.cl"
+    },
+    {
+      "pattern": "www.integrall.cl/*",
+      "zone_name": "integrall.cl"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "CONTACT_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "destination_address": "gcarrasco@integrall.cl"
+    }
+  ],
+  "workers_dev": true
+}
