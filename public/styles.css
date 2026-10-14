@@ -63,3 +63,7 @@ input,select,textarea{border-color:#d8d2c7;border-radius:4px;background:#f7f5f0}
 @media(min-width:1051px){.hero.hero-cinema{min-height:680px}}
 
 .team-detail{padding-top:0}
+
+/* Long contact addresses must wrap on narrow phones. */
+.prose a{overflow-wrap:anywhere}
+@media(max-width:780px){.contact-form input,.contact-form select,.contact-form textarea{font-size:16px}}

@@ -41,3 +41,9 @@ Paleta carbón `#101318`, marfil `#F3F0E9` y champagne `#C6A15B`, inspirada en l
 Video decorativo de portada: https://bertorello.netlify.app/hero.mp4, reutilizado por solicitud expresa del cliente y servido localmente como `public/assets/propiedades.mp4` (H.264, 1600×900, 11,6 s, 2 MB, sin audio). Poster extraído del mismo video. No representa un inmueble ofrecido por Integrall. Reproducción en bucle, pausa accesible y carga diferida; no inicia automáticamente con movimiento reducido o ahorro de datos.
 
 WhatsApp `+56 9 3877 9278`: tomado de las capturas 26–28 de la web anterior compartidas por el cliente vía iCloud. Contacto muestra los correos de Gabriela y Kerly; el formulario se entrega a Gabriela.
+
+### Revisión móvil (14 de octubre de 2026)
+
+Comprobadas las ocho páginas en anchos de 320 y 430 px y los flujos principales a 390 px usando Chrome responsive. Se corrigió un correo largo que desbordaba Privacidad a 320 px, se aumentaron a 16 px los campos móviles y se sincronizó la etiqueta del menú al cerrarlo con Escape.
+
+La portada selecciona `propiedades-movil.mp4` (960×540, 24 fps, aproximadamente 674 KiB) hasta 780 px, y `propiedades-web.mp4` en escritorio. Ambas versiones usan MP4 fast start; el poster WebP (60 KiB) tiene precarga prioritaria. La versión original queda conservada como fuente. No se realizó un envío adicional del formulario durante esta revisión.
