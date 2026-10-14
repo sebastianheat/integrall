@@ -67,3 +67,12 @@ input,select,textarea{border-color:#d8d2c7;border-radius:4px;background:#f7f5f0}
 /* Long contact addresses must wrap on narrow phones. */
 .prose a{overflow-wrap:anywhere}
 @media(max-width:780px){.contact-form input,.contact-form select,.contact-form textarea{font-size:16px}}
+
+/* A light services section breaks up the dark mobile introduction. */
+@media(max-width:780px){
+ .services{background:var(--cream);color:var(--ink)}
+ .services .eyebrow,.services .card-top,.services .text-link{color:var(--gold)}
+ .services p{color:var(--muted)}
+ .services .service-card{background:#fcfbf8;border:1px solid var(--line);box-shadow:0 8px 24px #10131805}
+ .services .service-card:hover{background:#fffdf8;border-color:#bfa77c}
+}
